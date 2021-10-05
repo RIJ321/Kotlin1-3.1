@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:id="@+id/rv_img"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/rv_images" />
+
+    <include
+        android:id="@+id/selected"
+        layout="@layout/bg_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
+
+</FrameLayout>
